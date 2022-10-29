@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+	<script src="https://cdn.jsdelivr.cn/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.min.js" ></script>
+  </head>
+  
+  
+  <body>
+	<!--定义一个布局容器-->
+	<div class="container">
+      <!--在布局容器中，定义一行-->
+	  <div class ="row">
+		  <!--在行上，定义列-->
+		  <div class ="col-lg-4 col-md-3 col-sm-2 col-xs-1" style ="border:5px solid red;">
+			  11111111
+		  </div>
+		  <div class ="col-lg-4 col-md-3 col-sm-2 col-xs-1" style ="border:5px solid blue;">
+		      22222222
+		  </div>
+		  <div class ="col-md-2" style ="border:5px solid green;">
+			  333333333
+		  </div>
+		  <div class ="col-md-2" style ="border:5px solid orange;">
+			  44444444
+		  </div>
+		  <div class ="col-md-2" style ="border:5px solid pink;">
+			  555555555
+		  </div>
+	  </div>
+		  <!--如果列元素 占用列数 总和小于等于12 则这些元素还在一行上
+		      如果大于12，大于十二的元素部分则会另起一行排列
+			  
+			  行和列是可以无线嵌套的，嵌套方式是列-行-列-行
+			  
+			  屏幕尺寸简述：large：  lg  --大屏幕，一般pc尺寸
+			               medium： md  --中等屏幕，小pc尺寸
+						   small：  sm  --小屏幕，ipad尺寸
+						   x small：xs --超小屏幕，智能手机尺寸
+						   
+						   如果设置了一个屏幕尺寸，比这个尺寸大的屏幕，继承了当前的设置；
+						   比这个尺寸小的屏幕，默认一个元素占一行
+		  -->
+	</div>
+	<!--内联列表(list-inline)-->
+	  <ul class="list-inline">
+		  <li>daonan</li>
+		  <li>liyuan</li>
+		  <li>pjy</li>
+	  </ul>
+  </body>
+</html>
